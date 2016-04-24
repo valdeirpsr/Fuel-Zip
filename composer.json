@@ -1,0 +1,26 @@
+{
+	"name": "valdeirpsr/Zip",
+	"type": "fuel-package",
+	"description": "Zip file manager",
+	"keywords": [
+		"zip",
+		"ziparchive",
+		"fuelphp",
+		"fuel",
+		"fuel-php",
+		"zip file",
+		"compress"
+	],
+	"homepage": "http://www.valdeirsantana.com.br",
+	"license": "MIT",
+	"authors": [{
+		"name": "Valdeir Santana",
+		"email": "valdeir.naval@gmail.com"
+	}],
+	"require": {
+		"composer/installers": "~1.0"
+	},
+	"extra": {
+		"installer-name": "zip"
+	}
+}

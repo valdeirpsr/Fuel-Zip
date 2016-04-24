@@ -336,9 +336,9 @@ class Zip
    *
    * @return void
    */
-  public static function crateFile($files, $contents = '', $override = true)
+  public static function createFile($files, $contents = '', $override = true)
   {
-    self::instance()->crateFile($files, $contents, $override);
+    self::instance()->createFile($files, $contents, $override);
   }
 
   /**

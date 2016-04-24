@@ -507,7 +507,7 @@ class Zip_Instance
    *
    * @return object Current instance
    */
-  public function crateFile($files, $contents = '', $override = true)
+  public function createFile($files, $contents = '', $override = true)
   {
     $this->addFromString($files, $contents);
 
