@@ -1,5 +1,5 @@
 {
-	"name": "valdeirpsr/zip",
+	"name": "valdeirpsr/fuel-zip",
 	"type": "fuel-package",
 	"description": "Zip file manager",
 	"keywords": [

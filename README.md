@@ -8,7 +8,7 @@ Via Composer
 ``` json
 {
     "require": {
-        "valdeirpsr/zip": "dev-master"
+        "valdeirpsr/fuel-zip": "dev-master"
     }
 }
 ```
@@ -16,7 +16,7 @@ Via Composer
 Via Composer (Command Line)
 
 ``` shell
-composer require valdeirpsr/zip
+composer require valdeirpsr/fuel-zip
 ```
 
 
