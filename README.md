@@ -8,7 +8,7 @@ Via Composer
 ``` json
 {
     "require": {
-        "valdeirpsr/Zip": "dev-master"
+        "valdeirpsr/zip": "dev-master"
     }
 }
 ```
@@ -16,7 +16,7 @@ Via Composer
 Via Composer (Command Line)
 
 ``` shell
-composer require valdeirpsr/Zip
+composer require valdeirpsr/zip
 ```
 
 
@@ -113,6 +113,7 @@ $zip->createFile([
   'pass.pwd' => 'File content',
   'error_log.txt' => 'No error'
 ]);
+
 $zip->createFile('music.txt', 'Na alegria, na tristeza, sempre lado a lado
 Com carinho ensinou meus primeiro passos
 Mais uma guerreira de pele escura, sofredora
