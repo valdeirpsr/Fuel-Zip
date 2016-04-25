@@ -288,10 +288,14 @@ class Zip_Instance
 
     if (is_array($folders)) {
       foreach($folders as $folder) {
-        $files[$folder] = \File::read_dir($folder, $depth, $filter);
+        if (is_dir($folder)) {
+          $files[$folder] = \File::read_dir($folder, $depth, $filter);
+        }
       }
     } else {
-      $files[$folders] = \File::read_dir($folders, $depth, $filter);
+      if (is_dir($folders)) {
+        $files[$folders] = \File::read_dir($folders, $depth, $filter);
+      }
     }
 
     $this->getPath($files);
